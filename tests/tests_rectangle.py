@@ -26,3 +26,6 @@ class RectangleTestCase(unittest.TestCase):
 
     def test8(self):
         self.assertAlmostEqual(perimeter(1.5, 2.5), 8.0)
+
+    def test9(self):
+        self.assertAlmostEqual(perimeter(1.5, 2.5), 10.0)
